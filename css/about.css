@@ -1,0 +1,52 @@
+.about-us {
+  align-items: center;
+  padding-top: 90px ;
+}
+.pic {
+  width: 380px;
+  border-radius: 12px;
+}
+.about {
+  width: 1150px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text {
+    margin-left:30px;
+    margin-bottom: 60px;
+    width: 500px;
+}
+
+.text h2 {
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.text p {
+  color: #333333e3;
+  font-size: 19px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.data {
+  margin-top: 35px;
+}
+
+.more {
+  font-size: 18px;
+  background: #255cf1;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+}
+.more:hover {
+    transition: 0.5s; 
+    background: #000;
+}
