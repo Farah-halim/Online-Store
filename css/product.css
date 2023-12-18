@@ -1,25 +1,465 @@
-.sidebar{
-	width: 220px;
-	top: 110px;
-	left: 30px;
-	bottom: 0;
-	padding: 10px 30px;
-	border-right: 2px solid #eee;
-	overflow-y: scroll;
-	
+#leftform{
+    float: left;
+    margin-left: 50px;
 }
-.sidebar.fixed{
-	position: fixed;
-	top: 110px;
-	height: calc(100vh - 110px);
+#leftform:hover{
+    transform: scale(1.02);
+    transition: 0.8s;
+}
+#rightform{
+    float: right;
+    margin-right: 50px;
+}
+#rightform:hover{
+    transform: scale(1.02);
+    transition: 0.8s;
+}
+.sec{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px 100px;
+    padding-right: 0px;
+}
+.products{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+.card{
+    width: 240px;
+    height: 270px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.card:hover{
+    transform:scale(1.02);
+    transition: 0.8s;
+}
+.card img{
+    height: 150px;
+    width: 180px;
 }
 
-.filter-type{
-	margin-bottom: 1rem;
+.card .title{
+    font-weight: 900;
+    font-size: 20px;
+    color: #000000;
+    padding: 0 15px;
+    margin-bottom: 10px;
+} 
+
+.card .desc{
+    font-size: 12px;
+    color: #424144;
 }
 
-.input[name="filter-type"]:checked~ul{
-	max-height: 300px;
+.card .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
-	
 
+.card .box .price{
+    color: #f63e4e;
+    font-size: 18px;
+    font-weight: bold;
+}
+.card .box .button{
+    background-color: #fff;
+    font-size: 15px;
+    color: #f63e4e;
+    font-weight: 900;
+    border: 1px solid #f63e4e;
+    border-radius: 20px;
+}
+.card .box .button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #f63e4e;
+}
+.shoes{
+    width: 240px;
+    height: 270px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.shoes:hover{
+    transform:scale(1.02);
+    transition: 0.8s;
+}
+.shoes img{
+    height: 150px;
+    width: 240px;
+}
+.shoes .title{
+    font-weight: 900;
+    font-size: 17px;
+    color: #000000;
+    padding: 0 20px;
+    margin-bottom: 10px;
+} 
+
+.shoes .desc{
+    font-size: 12px;
+    color: #424144;
+}
+
+.shoes .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.shoes .box .price{
+    color: #f63e4e;
+    font-size: 18px;
+    font-weight: bold;
+}
+.shoes .box .button{
+    background-color: #fff;
+    font-size: 15px;
+    color: #f63e4e;
+    font-weight: 900;
+    border: 1px solid #f63e4e;
+    border-radius: 20px;
+}
+.shoes .box .button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #f63e4e;
+}
+.watch{
+    width: 240px;
+    height: 270px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.watch:hover{
+    transform:scale(1.02);
+    transition: 0.8s;
+}
+.watch img{
+    height: 165px;
+    width: 240px;
+}
+.watch .title{
+    font-weight: 900;
+    font-size: 17px;
+    color: #000000;
+    padding: 0 60px;
+    margin-bottom: 10px;
+} 
+
+.watch .desc{
+    font-size: 12px;
+    color: #424144;
+}
+
+.watch .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.watch .box .price{
+    color: #f63e4e;
+    font-size: 18px;
+    font-weight: bold;
+}
+.watch .box .button{
+    background-color: #fff;
+    font-size: 15px;
+    color: #f63e4e;
+    font-weight: 900;
+    border: 1px solid #f63e4e;
+    border-radius: 20px;
+}
+.watch .box .button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #f63e4e;
+}
+.dress{
+    width: 240px;
+    height: 270px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.dress:hover{
+    transform:scale(1.02);
+    transition: 0.8s;
+}
+.dress img{
+    height: 165px;
+    width: 240px;
+}
+
+.dress .title{
+    font-weight: 900;
+    font-size: 20px;
+    color: #000000;
+    padding: 0 50px;
+    margin-bottom: 10px;
+} 
+
+.dress .desc{
+    font-size: 12px;
+    color: #424144;
+}
+
+.dress .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.dress .box .price{
+    color: #f63e4e;
+    font-size: 18px;
+    font-weight: bold;
+}
+.dress .box .button{
+    background-color: #fff;
+    font-size: 15px;
+    color: #f63e4e;
+    font-weight: 900;
+    border: 1px solid #f63e4e;
+    border-radius: 20px;
+}
+.dress .box .button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #f63e4e;
+}
+.dress2{
+    width: 240px;
+    height: 270px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.dress2:hover{
+    transform:scale(1.02);
+    transition: 0.8s;
+}
+.dress2 img{
+    height: 165px;
+    width: 240px;
+}
+.dress2 .title{
+    font-weight: 900;
+    font-size: 17px;
+    color: #000000;
+    padding: 0 50px;
+    margin-bottom: 10px;
+} 
+
+.dress2 .desc{
+    font-size: 12px;
+    color: #424144;
+}
+
+.dress2 .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.dress2 .box .price{
+    color: #f63e4e;
+    font-size: 18px;
+    font-weight: bold;
+}
+.dress2 .box .button{
+    background-color: #fff;
+    font-size: 15px;
+    color: #f63e4e;
+    font-weight: 900;
+    border: 1px solid #f63e4e;
+    border-radius: 20px;
+}
+.dress2 .box .button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #f63e4e;
+}
+.airpods{
+    width: 240px;
+    height: 270px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.airpods:hover{
+    transform:scale(1.02);
+    transition: 0.8s;
+}
+.airpods img{
+    height: 150px;
+    width: 240px;
+}
+.airpods .title{
+    font-weight: 900;
+    font-size: 17px;
+    color: #000000;
+    padding: 0 55px;
+    margin-bottom: 10px;
+} 
+
+.airpods .desc{
+    font-size: 12px;
+    color: #424144;
+}
+
+.airpods .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.airpods .box .price{
+    color: #f63e4e;
+    font-size: 18px;
+    font-weight: bold;
+}
+.airpods .box .button{
+    background-color: #fff;
+    font-size: 15px;
+    color: #f63e4e;
+    font-weight: 900;
+    border: 1px solid #f63e4e;
+    border-radius: 20px;
+}
+.airpods .box .button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #f63e4e;
+}
+.perfume{
+    width: 240px;
+    height: 270px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.perfume:hover{
+    transform:scale(1.02);
+    transition: 0.8s;
+}
+.perfume img{
+    height: 160px;
+    width: 240px;
+}
+.perfume .title{
+    font-weight: 900;
+    font-size: 17px;
+    color: #000000;
+    padding: 0 40px;
+    margin-bottom: 10px;
+} 
+.perfume .desc{
+    font-size: 12px;
+    color: #424144;
+}
+
+.perfume .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.perfume .box .price{
+    color: #f63e4e;
+    font-size: 18px;
+    font-weight: bold;
+}
+.perfume .box .button{
+    background-color: #fff;
+    font-size: 15px;
+    color: #f63e4e;
+    font-weight: 900;
+    border: 1px solid #f63e4e;
+    border-radius: 20px;
+}
+.perfume .box .button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #f63e4e;
+}
+.earings{
+    width: 240px;
+    height: 270px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.earings:hover{
+    transform:scale(1.02);
+    transition: 0.8s;
+}
+.earings img{
+    height: 150px;
+    width: 240px;
+}
+.earings .title{
+    font-weight: 900;
+    font-size: 17px;
+    color: #000000;
+    padding: 0 50px;
+    margin-bottom: 10px;
+} 
+.earings .desc{
+    font-size: 12px;
+    color: #424144;
+}
+
+.earings .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.earings .box .price{
+    color: #f63e4e;
+    font-size: 18px;
+    font-weight: bold;
+}
+.earings .box .button{
+    background-color: #fff;
+    font-size: 15px;
+    color: #f63e4e;
+    font-weight: 900;
+    border: 1px solid #f63e4e;
+    border-radius: 20px;
+}
+.earings .box .button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #f63e4e;
+}
