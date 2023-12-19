@@ -13,7 +13,6 @@ body{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 .logo{
     margin-left: 40px;
@@ -21,35 +20,31 @@ nav{
     font-size: 34px;
     text-decoration: none;
 }
-
 span{
     font-size: 30px;
     color:rgb(0 199 242);
 }
-
 .video_BG{
     margin-top:60px;
     width:48%;
     height:100%;
 }
 .search-box{
-    width: 310px;
-    height: 10px;
     display: flex;
     cursor: pointer;
-    padding: 10px 10px;
-    background: #fff;
+    width: 310px;
+    height: 10px;
+    margin-left: 80px;
+    padding: 10px;
+    background: #ffffff;
     border-radius: 100px;
     align-items: center;
 }
-
 .search-box input{
-    width: 310px;
+    width: 100%;
     outline: none;
     border: none;
-    transition: 0.7s;
 }
-
 nav ul li{
     list-style: none;
     display: inline-block;
@@ -60,16 +55,12 @@ nav ul li a {
     color: aliceblue;
     margin: 0 25px;
 }
-
 nav ul li a:hover {
     color: rgb(0 199 242);
     transition: 0.7s;
 }
-
 .login-box {
     background-image: url(../images/Watercolor.jpeg);
-    /* background-color:rgba(76, 78, 173, 0.452);
-    background-color:rgb(156 89 241 / 79%); */
     position:absolute;
     top: 27%;
     left: 63%;
@@ -78,17 +69,14 @@ nav ul li a:hover {
     border-radius: 20px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.171);
 }
-
 h1{
     white-space: 555px;
     text-align: center;
-    /* padding-top: 5px; */
     color: rgb(25 27 128);
     font-family: 'Ubuntu', sans-serif;
     font-weight:800;
     font-size: 37px;
 }
-
 .user{
     margin-left: 10px;
     margin-top: 10px;
@@ -124,13 +112,6 @@ h1{
         font-weight: bold;
         font-size: 15px;  
     }
-
-.bxs-user{
-    color: rgb(25 27 128);
-}
-.bx-lock-alt{
-    color: rgb(25 27 128);
-}
 .btn {
     width: 160px;
     height: 35px;

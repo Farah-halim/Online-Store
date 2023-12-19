@@ -1,0 +1,121 @@
+.contact-form{
+    background:rgb(0 143 211);
+    justify-content: center;
+    display: grid;
+}
+.container{
+    width: 900px;
+    height: 400px;
+    margin-top: auto;
+}
+
+.contact-form h2{
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(204, 0, 211);
+    text-align: center;
+    margin-top: 15px;
+}
+.contact-form .main{
+    display: flex;
+    margin: 50px 0;
+}
+.content{
+    flex-basis: 50%;
+    padding: 0 15px;
+    background: #fff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.form-img{
+    flex-basis: 50%;
+    background: #f0f4f8;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+    display: grid;
+    
+}
+.form-img img{
+    max-width: 90%;
+}
+
+.info-details li {
+    margin-top: 20px;
+    font-size: 16px;
+    color:#fff;
+}
+.info-details li i {
+    background: rgb(0 143 211);
+    padding: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.info-details li a {
+    color: #000000;
+    text-decoration: none;
+}
+.info-details li a:hover {
+    color: #F44770;
+}
+.social-icons {
+    list-style: none;
+    text-align: center;
+}
+.social-icons li {
+    display: inline-block;
+}
+.social-icons li i {
+    background: rgb(0 143 211);
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 22%;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.social-icons li i:hover {
+    background: #fff;
+    color: #000000;
+}
+
+.btn-contact {
+    width: 50%;
+    cursor: pointer;
+    border-radius: 35px;
+}
+.btn-contact:hover{
+    color:rgb(0 143 211);
+    transition: 0.5s ease;
+}
+.contact-form form {
+    margin: 30px 0;
+}
+.contact-form input,textarea{
+    outline: none;
+    margin-bottom: 15px;
+    font-stretch: 16px;
+    color: #999;
+    padding: 14px 20px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background: #fcfcfc;
+    transition: 0.3s ease;
+}
+.contact-form input:focus {
+    background: transparent;
+    border: 1px solid rgb(0 143 211);
+}
+.contact-form .btn-contact {
+    font-size: 18px;
+    color: #fff;
+    width: 100%;
+    background: rgb(0 143 211);
+    font-weight: 600;
+    transition: 0.3s ease;
+    padding: 14px 15px;
+    border: 1px solid rgb(0 143 211);
+}
