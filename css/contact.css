@@ -1,8 +1,6 @@
 .contact-form{
-    margin-top: -15px;
     width: 75%;
-    height: 90px;
-    padding: 0px 155px;
+    margin: auto;
 }
 .contact-form h2{
     font-family: 'Ubuntu', sans-serif;
@@ -24,7 +22,6 @@
     border-bottom-left-radius: 8px;
 }
 .form-photo{
-    margin-left: -22px;
     display: grid;
     width: 80%;
     background: #f0f4f8;
@@ -66,7 +63,7 @@ label{
 }
 .social-icons li i {
     margin: 0px 5px;
-    padding: 12px;
+    padding: 10px;
     font-size: 15px;
     color: #fff;
     background: rgb(0 143 211);
@@ -83,7 +80,6 @@ label{
 .contact-form form {
     margin: 25px 0;
 }
-
 .contact-form input{
     outline: none;
     margin-bottom: 15px;
@@ -100,9 +96,8 @@ label{
     border: 1px solid rgb(0 143 211);
     transition: 0.5s;
 }
-
 .btn-contact {
-    width: 190px;
+    width: 180px;
     height: 50px;
     cursor: pointer;
     border-radius: 35px;

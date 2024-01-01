@@ -15,18 +15,17 @@ nav{
     align-items: center;
 }
 .logo{
-    margin-left: 40px;
+    margin-left: 45px;
     color: white;
-    font-size: 34px;
+    font-size: 35px;
     text-decoration: none;
 }
 span{
-    font-size: 30px;
     color:rgb(0 199 242);
 }
 .video_BG{
     margin-top:60px;
-    width:48%;
+    width:47%;
     height:100%;
 }
 .search-box{
@@ -34,7 +33,7 @@ span{
     cursor: pointer;
     width: 310px;
     height: 10px;
-    margin-left: 80px;
+    margin-left: 90px;
     padding: 10px;
     background: #ffffff;
     border-radius: 100px;
@@ -53,7 +52,7 @@ nav ul li a {
     font-size: 23px;
     text-decoration: none;
     color: aliceblue;
-    margin: 0 25px;
+    margin: 0 27px;
 }
 nav ul li a:hover {
     color: rgb(0 199 242);
@@ -63,7 +62,7 @@ nav ul li a:hover {
     background-image: url(../images/Watercolor.jpeg);
     position:absolute;
     top: 27%;
-    left: 63%;
+    left: 60%;
     width: 350px;
     height: 390px;
     border-radius: 20px;
